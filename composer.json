@@ -1,0 +1,37 @@
+{
+  "name": "zjien/proton",
+  "keywords": ["laravel", "CAPTCHA", "verification code", "code"],
+  "description": "A CAPTCHA(verification code) package for Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zjien",
+      "email": "Gingjanjan@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "Gingjanjan@gmail.com",
+    "issues": "https://github.com/zjien/Proton/issues",
+    "wiki": "https://github.com/zjien/Proton",
+    "source": "https://github.com/zjien/Proton"
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/console": "~5.0",
+    "illuminate/support": "~5.0",
+    "illuminate/config": "~5.0",
+    "illuminate/database": "~5.0",
+    "illuminate/filesystem": "~5.0",
+    "symfony/http-kernel": "2.7.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8",
+    "mockery/mockery": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zjien\\Proton\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
